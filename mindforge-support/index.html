@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindForge — Support</title>
+    <style>
+        :root {
+            --bg: #0f1117;
+            --surface: #1a1d27;
+            --text: #e4e4e7;
+            --muted: #a1a1aa;
+            --accent: #7c5bf5;
+            --border: #2a2d3a;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem 1.5rem;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        header h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.25rem;
+        }
+        header h1 span {
+            color: var(--accent);
+        }
+        header p {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+        h2 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 0.6rem;
+            color: var(--text);
+        }
+        p {
+            color: var(--muted);
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+        .card p:last-child {
+            margin-bottom: 0;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(124, 91, 245, 0.15);
+            color: var(--accent);
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.2rem 0.7rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+        }
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.8rem;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            color: var(--muted);
+            font-size: 0.95rem;
+            margin-bottom: 0.4rem;
+        }
+        ul li::before {
+            content: "→ ";
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span>MindForge</span> Support</h1>
+            <p>Brain training for working memory — iPhone &amp; iPad</p>
+        </header>
+
+        <div class="card">
+            <span class="badge">Get help</span>
+            <p>Found a bug, have a question, or want to suggest a game mode? Email <a href="mailto:j.b.lopez.acc@gmail.com?subject=MindForge%20support">j.b.lopez.acc@gmail.com</a>. Include your device model, iOS version, and the app version shown in Settings, and I'll get back to you as soon as I can.</p>
+        </div>
+
+        <h2>Frequently asked questions</h2>
+
+        <h2 style="font-size:1rem;margin-top:1.25rem">Do I need an account or an internet connection?</h2>
+        <p>No. MindForge has no accounts, no login, and works fully offline. Nothing is sent anywhere.</p>
+
+        <h2 style="font-size:1rem;margin-top:1.25rem">Why are some game modes locked?</h2>
+        <p>Modes unlock progressively as you earn XP and level up. Keep playing the unlocked modes — each completed session awards XP toward the next unlock.</p>
+
+        <h2 style="font-size:1rem;margin-top:1.25rem">Where is my progress stored? Can I reset it?</h2>
+        <p>Progress (XP, level, high scores, difficulty, settings) is stored only on your device. Use <em>Reset All Progress</em> in Settings to start over, or delete the app to remove all data.</p>
+
+        <h2 style="font-size:1rem;margin-top:1.25rem">How do I change the language or theme?</h2>
+        <p>MindForge follows your device language by default; in Settings → Language you can force English or Spanish. Settings → Theme switches between dark and white.</p>
+
+        <h2 style="font-size:1rem;margin-top:1.25rem">Is my data collected?</h2>
+        <p>No data is collected, ever. See the <a href="https://aifriend.github.io/mindforge-privacy/">Privacy Policy</a>.</p>
+
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: <a href="mailto:j.b.lopez.acc@gmail.com">j.b.lopez.acc@gmail.com</a></li>
+            <li>Privacy Policy: <a href="https://aifriend.github.io/mindforge-privacy/">aifriend.github.io/mindforge-privacy</a></li>
+        </ul>
+
+        <footer>
+            <p>MindForge — com.aifriend.MindForge</p>
+        </footer>
+    </div>
+</body>
+</html>
